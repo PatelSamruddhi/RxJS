@@ -11,7 +11,7 @@
                   (change)="onSelected($event.target.value)">
             <option value="0">- Display All -</option>
             <option *ngFor="let category of categories"
-                    [value]="category.id">{{ category.name }}</option>
+                    [value]="category.id">{{ category.name }}}</option>
           </select>
         </div>
         <div class="col-2">
