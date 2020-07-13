@@ -1,8 +1,5 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-
+import { Component} from '@angular/core';
 import { Subscription, EMPTY } from 'rxjs';
-
-import { Product } from '../product';
 import { ProductService } from '../product.service';
 import { catchError } from 'rxjs/operators';
 

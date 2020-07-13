@@ -1,6 +1,5 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
-import { Subscription, Observable, EMPTY } from 'rxjs';
-import { Product } from './product';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { EMPTY } from 'rxjs';
 import { ProductService } from './product.service';
 import { catchError } from 'rxjs/operators';
 
